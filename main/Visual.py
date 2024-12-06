@@ -60,7 +60,7 @@ class Visualize:
         plt.show()
 
 # Example usage
-file_path = '/Users/phamthiphuongthuy/Desktop/Intern/server_log/D:\CODING\Project\Server Log Analysis\data\interim\parsed_logs.csv'
+file_path = 'pathname'
 visualizer = Visualize(file_path)
 hourly_bytes_sent = visualizer.read_data(file_path)
 visualizer.visualize_data()
